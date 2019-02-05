@@ -1,6 +1,6 @@
 var katzDeliLine = [];
 
-function takeANumber(katzDeliLine, "Ada"){
+function currentLine(name){
   if (!line.length) {
     return "The line is currently empty."
   }
