@@ -19,3 +19,12 @@ function currentLine(line){
   }
   return `The line is currently: ${numbersAndNames.join(', ')}`
 }
+
+
+function nowServing(line){
+  if (!line.length) {
+    return "There is nobody waiting to be served!"
+  }
+
+  return `Currently serving ${line.shift()}.`
+}
